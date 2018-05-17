@@ -1,0 +1,27 @@
+{
+  "name": "@reinjs/rein-dbo",
+  "version": "1.0.0",
+  "description": "The dbo plugin of rein",
+  "scripts": {
+    "test": "NODE_ENV=dev node test/index.js"
+  },
+  "plugin": {
+    "name": "dbo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:reinjs/rein-dbo.git"
+  },
+  "dependencies": {
+    "@reinjs/rein-utils": "^1.0.1",
+    "is-type-of": "^1.2.0",
+    "ys-dbo": "^1.0.8",
+    "ys-dbo-mysql": "^1.0.5",
+    "ys-dbo-redis": "^1.0.6"
+  },
+  "devDependencies": {
+    "@reinjs/rein": "^1.0.2",
+    "@reinjs/rein-class": "^1.0.0",
+    "@reinjs/rein-cluster": "^1.0.1"
+  }
+}
