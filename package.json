@@ -3,7 +3,8 @@
   "version": "1.0.2",
   "description": "The dbo plugin of rein",
   "scripts": {
-    "test": "NODE_ENV=dev node test/index.js"
+    "test": "NODE_ENV=dev node test/index.js",
+    "postinstall": "./node_modules/.bin/rc init @reinjs/rein-dbo"
   },
   "plugin": {
     "name": "dbo"
@@ -22,6 +23,7 @@
   "devDependencies": {
     "@reinjs/rein": "^1.0.2",
     "@reinjs/rein-class": "^1.0.0",
+    "@reinjs/rein-cli": "^1.0.6",
     "@reinjs/rein-cluster": "^1.0.1"
   }
 }
