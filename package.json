@@ -1,6 +1,6 @@
 {
   "name": "@reinjs/rein-dbo",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The dbo plugin of rein",
   "scripts": {
     "test": "NODE_ENV=dev node test/index.js",
