@@ -1,6 +1,6 @@
 {
   "name": "@reinjs/rein-dbo",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "The dbo plugin of rein",
   "scripts": {
     "test": "NODE_ENV=dev node test/index.js",
@@ -17,7 +17,7 @@
     "@reinjs/rein-utils": "^1.0.1",
     "is-type-of": "^1.2.0",
     "ys-dbo": "^1.0.8",
-    "ys-dbo-mysql": "^1.0.5",
+    "ys-dbo-mysql": "^1.0.6",
     "ys-dbo-redis": "^1.0.6"
   },
   "devDependencies": {
